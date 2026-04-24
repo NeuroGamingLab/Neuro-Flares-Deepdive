@@ -61,4 +61,36 @@ _source: https://www.swpc.noaa.gov/_
 
 ---------------
 
+## "With UnSupervised ML" section (PCA / NMF / ICA / RPCA)
+
+
+Decomposition layers from **stacking** multiple solar images: each pixel is a small vector across those images, and the methods extract a few patterns as full-frame images.
+
+### PCA
+
+| stack_pca_1 | stack_pca_2 | stack_pca_3 |
+|-------------|-------------|-------------|
+| ![stack_pca_1](output_slices/stack_pca_1.png) | ![stack_pca_2](output_slices/stack_pca_2.png) | ![stack_pca_3](output_slices/stack_pca_3.png) |
+
+### NMF
+
+| stack_nmf_1 | stack_nmf_2 | stack_nmf_3 |
+|-------------|-------------|-------------|
+| ![stack_nmf_1](output_slices/stack_nmf_1.png) | ![stack_nmf_2](output_slices/stack_nmf_2.png) | ![stack_nmf_3](output_slices/stack_nmf_3.png) |
+
+### ICA
+
+| stack_ica_1 | stack_ica_2 | stack_ica_3 |
+|-------------|-------------|-------------|
+| ![stack_ica_1](output_slices/stack_ica_1.png) | ![stack_ica_2](output_slices/stack_ica_2.png) | ![stack_ica_3](output_slices/stack_ica_3.png) |
+
+### Robust PCA (background vs. anomalies)
+
+| stack_rpca_background | stack_rpca_anomalies |
+|----------------------|----------------------|
+| ![stack_rpca_background](output_slices/stack_rpca_background.png) | ![stack_rpca_anomalies](output_slices/stack_rpca_anomalies.png) |
+
+**Files in** `output_slices/` **(stack mode):** `stack_pca_1.png`, `stack_pca_2.png`, `stack_pca_3.png`, `stack_nmf_1.png`, `stack_nmf_2.png`, `stack_nmf_3.png`, `stack_ica_1.png`, `stack_ica_2.png`, `stack_ica_3.png`, `stack_rpca_background.png`, `stack_rpca_anomalies.png`.
+
+---
 
