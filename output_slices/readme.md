@@ -42,3 +42,5 @@ Decomposition layers from **stacking** multiple solar images: each pixel is a sm
 **Files in this folder (stack mode):** `stack_pca_1.png`, `stack_pca_2.png`, `stack_pca_3.png`, `stack_nmf_1.png`, `stack_nmf_2.png`, `stack_nmf_3.png`, `stack_ica_1.png`, `stack_ica_2.png`, `stack_ica_3.png`, `stack_rpca_background.png`, `stack_rpca_anomalies.png`.
 
 ---
+
+*Designed by Dang.*

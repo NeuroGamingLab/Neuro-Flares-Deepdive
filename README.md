@@ -94,3 +94,4 @@ Decomposition layers from **stacking** multiple solar images: each pixel is a sm
 
 ---
 
+*Designed by Dang.*

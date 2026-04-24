@@ -89,3 +89,6 @@ If you pass in only one image:
 
 All five are **unsupervised**: they use only pixel values (and position when in single-image mode). No manual labels or physics equations are required. The script turns their results into grayscale images so you can look at and compare the layers.
 
+---
+
+*Designed by Dang.*
